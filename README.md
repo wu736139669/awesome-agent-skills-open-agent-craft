@@ -162,6 +162,7 @@ Calendar, email, task, note, meeting, and knowledge workflow recipes for agents.
 | Skill | Platform | Type | Maturity | Tags |
 |---|---|---|---|---|
 | [CrewAI](https://github.com/crewAIInc/crewAI) | General Agent Skills | Workflow Framework | Promising | `multi-agent`, `roles`, `workflow`, `automation` |
+| [Goal Instruction Writer](https://github.com/wu736139669/goal-instruction-writer) | Codex | Agent Skill | Promising | `goals`, `planning`, `verification`, `checkpoints` |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | General Agent Skills / Azure | Workflow Framework | Recommended | `plugins`, `planner`, `enterprise`, `tool-use` |
 
 ## DevOps
@@ -227,6 +228,7 @@ AGENTS.md, CLAUDE.md, GEMINI.md, Copilot instructions, Cursor rules, Windsurf ru
 | [Gemini CLI GEMINI.md](https://geminicli.com/docs/cli/gemini-md/) | Gemini CLI | Instruction Guide | Recommended | `gemini`, `gemini-md`, `context`, `imports` |
 | [GitHub Awesome Copilot](https://github.com/github/awesome-copilot) | GitHub Copilot / VS Code | Collection | Recommended | `copilot`, `awesome-list`, `custom-agents`, `instructions` |
 | [GitHub Copilot Repository Instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions) | GitHub Copilot | Instruction Guide | Recommended | `copilot`, `instructions`, `github`, `repository-standards` |
+| [Goal Instruction Writer](https://github.com/wu736139669/goal-instruction-writer) | Codex | Agent Skill | Promising | `goals`, `planning`, `verification`, `checkpoints` |
 | [Open Agent Skills Standard](https://agentskills.io/home) | Codex / Claude Code / General Agent Skills | Standard | Recommended | `standard`, `skill-format`, `portable-skills` |
 | [OpenAI Prompt Engineering Guide](https://developers.openai.com/api/docs/guides/prompt-engineering) | OpenAI / General Agent Skills | Prompt Pattern | Recommended | `prompt-patterns`, `instructions`, `decomposition`, `reliability` |
 | [VS Code Copilot Custom Instructions](https://code.visualstudio.com/docs/agent-customization/custom-instructions) | GitHub Copilot / VS Code | Instruction Guide | Recommended | `vscode`, `copilot`, `instructions`, `prompt-files` |
@@ -295,6 +297,7 @@ Prompt injection defense, permissions, secret handling, safe file operations, an
 
 - [AGENTS.md](https://agents.md/) - A simple open format for giving coding agents project context, setup commands, conventions, and operational constraints. Why awesome: The most portable project-instruction format for coding agents, easy to version and review.
 - [Codex AGENTS.md Guide](https://developers.openai.com/codex/guides/agents-md) - Official Codex guidance for instruction discovery, precedence, global AGENTS.md files, project files, and overrides. Why awesome: Useful when teams need predictable instruction layering across global and project scopes.
+- [Goal Instruction Writer](https://github.com/wu736139669/goal-instruction-writer) - Preview, draft, refine, and audit durable Goal instructions for multi-stage agent work. Why awesome: Makes acceptance evidence, drift checks, verification reuse, and waiting checkpoints explicit before a long task starts.
 - [Open Agent Skills Standard](https://agentskills.io/home) - Open format for packaging agent capabilities as folders with SKILL.md metadata, instructions, optional scripts, references, and assets. Why awesome: Gives the ecosystem a shared vocabulary for portable agent capabilities instead of one-off prompt files.
 - [OpenAI Codex Agent Skills](https://developers.openai.com/codex/skills) - Official Codex guide for packaging reusable workflows as SKILL.md folders with optional scripts, references, and assets. Why awesome: The clearest starting point for writing Codex-native skills that are discoverable, scoped, and reusable.
 - [OpenAI Codex MCP Guide](https://developers.openai.com/codex/mcp) - Codex documentation for configuring MCP servers and tool access. Why awesome: Shows how MCP fits into Codex workflows without inventing a custom integration layer.

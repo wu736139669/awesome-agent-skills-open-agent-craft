@@ -788,3 +788,20 @@ skills:
     output: "Executed multi-agent workflow."
     tools: ["Python"]
     safety_notes: "Avoid role sprawl; enforce output validation and tool permissions."
+
+  - name: "Goal Instruction Writer"
+    url: "https://github.com/wu736139669/goal-instruction-writer"
+    description: "Preview, draft, refine, and audit durable Goal instructions for multi-stage agent work."
+    platform: ["Codex"]
+    category: ["Agent Instructions", "Productivity"]
+    tags: ["goals", "planning", "verification", "checkpoints"]
+    maturity: "promising"
+    license: "MIT"
+    maintained: true
+    install: "npx skills add wu736139669/goal-instruction-writer --skill goal-instruction-writer -g -a codex -y"
+    why_awesome: "Makes acceptance evidence, drift checks, verification reuse, and waiting checkpoints explicit before a long task starts."
+    type: "Agent Skill"
+    input: "A task brief or existing Goal, scope, budgets, and required acceptance evidence."
+    output: "A loop preview, ready-to-paste Goal, or audit with bounded stop and resume conditions."
+    tools: ["Codex"]
+    safety_notes: "Instruction design only. The host supplies execution permissions, persistence, and wake-up; live wait/resume validation remains pending."
